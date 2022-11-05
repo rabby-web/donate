@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================ top-banner ================ */
+.top-banner {
+    background-image: url(./images/donation7.jpg);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    padding: 80px 50px;
+}
+
+.banner-text {
+    color: white;
+    padding: 30px 50px;
+}
+
+.banner-text h1 {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.banner-text p {
+    font-size: 20px;
+    color: rgb(215, 203, 203);
+}
+
+/* ================ donate-today ================ */
+
+
+button {
+    color: white;
+    background-color: purple;
+    padding: 6px 10px;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+.donate-today {
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+    padding: 30px;
+}
+
+/* ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+} */
+
+.donate-amount {
+    display: flex;
+}
+
+.amount {
+    align-items: center;
+    padding: 10px;
+    margin: 10px 5px;
+}
+
+#border {
+    border: 3px solid palevioletred;
+}
+
+/* ================ our-plan ================ */
+.our-plan {
+    padding: 30px;
+}
+
+.plan-text {
+    text-align: center;
+    padding: 30px 60px;
+}
+
+.plan-text h1 {
+    font-size: 40px;
+}
+
+.plan-text p {
+    font-size: 15px;
+}
+
+.planing {
+    display: flex;
+}
+
+.box {
+    padding: 10px;
+}
+
+#color1 {
+    background-color: rgb(179, 40, 40);
+}
+
+#color2 {
+    background-color: rgb(185, 158, 158);
+}
+
+#color3 {
+    background-color: rgb(168, 131, 131);
+}
