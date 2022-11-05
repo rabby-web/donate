@@ -110,3 +110,11 @@ button {
 #color3 {
     background-color: rgb(168, 131, 131);
 }
+
+/* ================ footer ================ */
+.foot {
+    background-color: black;
+    color: brown;
+    text-align: center;
+    padding: 40px;
+}
