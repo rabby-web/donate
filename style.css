@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    z-index: hidden;
+    /* z-index: hidden; */
     font-family: poppins;
 }
 :root {
@@ -96,6 +96,8 @@ a{
     text-align: center;
     align-items: center;
     padding: 20px 30px;
+    width: 1400px;
+    height: 130px;
 }
 
 .amount {
@@ -104,10 +106,16 @@ a{
     align-items: center;
     padding: 10px;
     margin: 10px 5px;
+    width: 250px;
+    height: 130px;
 }
 
 #border {
     border: 3px solid palevioletred;
+}
+.amount-card {
+    background-color: darkgray;
+    margin: 3px;
 }
 
 /* ================ our-plan ================ */
@@ -134,6 +142,8 @@ a{
 
 .box {
     padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
 }
 
 #color1 {
@@ -146,6 +156,45 @@ a{
 
 #color3 {
     background-color: rgb(168, 131, 131);
+}
+/* ================ donation ================ */
+.donation{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.donation-left{
+    width: 50%;
+    text-align: left;
+    align-items: center;
+}
+.donation-right img{
+    width: 50%;
+}
+/* ---  */
+.donation-lefts img{
+    width: 50%;
+}
+.donation-rights {
+    width: 50%;
+    text-align: left;
+    align-items: center;
+}
+/* ================ footer ================ */
+.updates{
+    text-align: center;
+    background-color: rgb(202, 94, 237);
+    margin: 60px 100px;
+    padding: 60px 20px;
+}
+input{
+    border: none;
+    background-color: rgb(161, 68, 68);
+    height: 35px;
+    width: 25%;
+    border-radius: 10px;
 }
 
 /* ================ footer ================ */
