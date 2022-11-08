@@ -73,30 +73,34 @@ a{
 /* --------------------------------------------------
                     /header end
 ----------------------------------------------------*/
-/* ================ donate-today ================ */
+/* --------------------------------------------------
+                    /donate today start
+----------------------------------------------------*/
 
 
-
-
-.donate-today {
-    background-color: white;
+.container{
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+}
+.donate {
     text-align: center;
     align-items: center;
     margin: 30px;
     padding: 30px;
+    width: 100%;
 }
-
-/* ul li {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-} */
-
 .donate-amount {
     display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 20px 30px;
 }
 
 .amount {
+    display: flex;
+    text-align: center;
     align-items: center;
     padding: 10px;
     margin: 10px 5px;
